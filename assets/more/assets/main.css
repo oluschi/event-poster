@@ -1,0 +1,156 @@
+
+
+body {
+	background-color:black;
+}
+
+
+.frame {
+  position:absolute;
+  width: 75vw;
+  height: 75vw;
+  left: 0px;
+  top:-1px;
+
+}
+
+a:-webkit-any-link {
+
+  position: fixed;
+  
+  left: 15px;
+  top: 16px;
+  color: #FFFFFF;
+  z-index: 2;
+  font-size: 3vw;
+  width: 409px;
+  height: 214px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+
+}
+
+li {
+    left:700px; 
+}
+
+ul {
+    list-style-type: disc;
+}
+
+mark{
+	color:#8AB1F3;
+	background-color:transparent;
+}
+
+img.back{
+	position: absolute;
+    width: 100vw;
+    height: 100vw;
+    left: 0px;
+    top: 116vw;
+    z-index: -1;
+
+}
+
+img.school {
+    z-index: 0;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 40vw;
+    width: 40vw;
+}
+
+.more {
+	width: 100vw;
+    margin-top: -20vw;
+    z-index: 3;
+
+}
+
+h1{ 
+    position: absolute;
+    left: 67vw;
+    top: 14vw;
+    width: 21vw;
+    height: 25vw;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.5vw;
+    background-color: transparent;
+    letter-spacing: -0.015em;
+    z-index: 3;
+ }
+
+.ellipse2{
+position: absolute;
+width: 25vw;
+height: 25vw;
+left: 65vw;
+top: 13vw;
+z-index: 2;
+border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+background: #F563F2;
+}
+
+.arrow-up {
+    width: 30vw;
+    height: 20vw;
+    border-left: 30vw solid transparent;
+    border-right: 30vw solid transparent;
+    border-bottom: 30vw solid #FB936D;
+    background: black;
+    z-index: 3;
+    padding-top: 65vw;
+    padding-left: 5vw;
+    margin-left: 3vw;
+}
+
+h2{ 
+    position: absolute;
+    left: 40vw;
+    width: 21vw;
+    height: 15vw;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.5vw;
+    background-color: transparent;
+    letter-spacing: -0.015em;
+    z-index: 3;
+    text-align: left;
+ }
+
+p{	
+    color: white;
+    font-size: 5vw;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-left: 15vw;
+    padding-top: 20vw;
+    z-index: 1;
+    font-family: sans-serif;
+}
+
+.ellipse1{
+    display: block;
+    width: 66vw;
+    height: 68vw;
+    background: black;
+    position: absolute;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    left: 17vw;
+    top: 130vw;
+    z-index: -1;
+}
